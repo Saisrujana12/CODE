@@ -1,0 +1,12 @@
+node_modules/
+public/assets/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+.qodo/
+*.log
+npm-debug.log*
