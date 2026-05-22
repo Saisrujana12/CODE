@@ -62,3 +62,5 @@ app.post("/api/review", async (request, response) => {
 app.get("*", (_request, response) => {
   response.sendFile(path.resolve(publicDirectory, "index.html"));
 });
+
+export default app;
